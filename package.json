@@ -1,0 +1,23 @@
+{
+  "name": "updated-portfolio",
+  "version": "1.0.0",
+  "description": "* [Description](#Description)\r * [Screenshot](#Screenshot)\r * [Location of Deployed Project](#Location)\r * [Notes from Dan](#Notes)\r * [Credits](#Credits)\r * [License](#License)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danaument/updated-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danaument/updated-portfolio/issues"
+  },
+  "homepage": "https://github.com/danaument/updated-portfolio#readme",
+  "dependencies": {
+    "bulma": "^0.9.1"
+  }
+}
