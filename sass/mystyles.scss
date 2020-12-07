@@ -2,3 +2,19 @@
 @import "../node_modules/bulma/bulma.sass";
 
 
+header {
+    img {
+        filter: invert(1);
+        width: 30%;
+    }
+    .title {
+        font-size: 5rem;
+    }
+    .subtitle {
+        font-size: 3rem;
+    }
+}
+
+.rounded {
+    border-radius: 10px;
+}

@@ -11591,3 +11591,20 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem;
 }
+
+header img {
+  filter: invert(1);
+  width: 30%;
+}
+
+header .title {
+  font-size: 5rem;
+}
+
+header .subtitle {
+  font-size: 3rem;
+}
+
+.rounded {
+  border-radius: 10px;
+}
