@@ -11608,3 +11608,19 @@ header .subtitle {
 .rounded {
   border-radius: 10px;
 }
+
+#back2Top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 15 px;
+  font-size: 3rem;
+  z-index: 1;
+}
+
+:hover > #back2Top {
+  opacity: 0.8;
+}
