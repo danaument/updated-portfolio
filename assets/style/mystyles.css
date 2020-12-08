@@ -16854,19 +16854,18 @@ header .subtitle {
   opacity: 0.8;
 }
 
-.card {
-  height: 31.25rem;
-}
-
 :hover > .card {
   box-shadow: #a28497ff 0px 0.5em 1em -0.125em, #a28497ff 0px 0px 0px 1px;
 }
 
-.card img {
-  overflow-y: hidden;
-  max-height: 100%;
-}
-
 body {
   font-family: "Raleway", sans-serif;
+}
+
+.imgHover {
+  background-color: #ffd968ff;
+}
+
+:hover > .imgHover {
+  opacity: 0.8;
 }

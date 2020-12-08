@@ -87,14 +87,21 @@ background-color: $usafa-blue !important;
     :hover > & {
         box-shadow: $grey-dark 0px 0.5em 1em -0.125em, $grey-dark 0px 0px 0px 1px;
     }
-    img {
-        overflow-y: hidden;
-        max-height: 100%;
+    // img { //not behaving as desired, must use uniformly sized images in the future
+    //     overflow-y: hidden;
+    //     max-height: 100%;
         
-    }
-    height: 31.25rem;
+    // }
+    // height: 31.25rem;
 }
 
 body {
     font-family: "Raleway", sans-serif;
+}
+
+.imgHover {
+    background-color: $orange-yellow-crayola;
+    :hover > & {
+        opacity: 0.8;
+    }
 }
