@@ -9,18 +9,21 @@
 * [License](#License)
 
 ### <a name="Description">Description:</a>
-
+This project is a complete redesign of my portfolio as a homework assignment submission for the ninth week of UT's web dev coding bootcamp.  It contains a codebase and a deployed webpage for my portfolio to date.
 
 ### <a name="Screenshot">Screenshot: </a>
-
+<img src="./assignmentassets/updatedPortfolioScreenshot.png" width="250x" />
 
 ### <a name="Location">Location of Deployed Project:</a>
+https://danaument.github.io/updated-portfolio/
 
 ### <a name="Notes">Notes from Dan:  </a>
+A portfolio should reflect its owner, and I am fairly happy with how this page has turned out.  I used the Bulma CSS framework and challenged myself to learn and utilise SASS (compiled via live SASS VSCode extension).  I had some difficulty working with Bulma's SASS variables.  They seem to have recently restructured how they implement them, and the documentation is a bit thin.  
 
+I look forward to continuing to update this portfolio with new selected projects, uniformly-sized images, a contact form, etc.
 
 ### <a name="Credits">Credits: </a>
-
+This project was completed by Dan Aument using code and assets provided by The Coding Boot Camp at UT Austin in partnership with Trilogy Education Services.  I received direct help from my TA Brennan Predmoré.
 
 ### <a name="License">License: </a>
 
