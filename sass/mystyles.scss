@@ -1,6 +1,47 @@
 @charset "utf-8";
 @import "../node_modules/bulma/bulma.sass";
 
+// @import "../node_modules/bulma/sass/utilities/functions.sass";
+
+// Import a Google Font
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+// Set your brand colors
+
+$orange-yellow-crayola: #ffd968ff;
+$burnt-sienna: #de6b48ff;
+$alice-blue: #e9f1f7ff;
+$usafa-blue: #26547cff;
+$mountbatten-pink: #a28497ff;
+
+// Update Bulma's global variables
+$family-sans-serif: "Raleway", sans-serif;
+$grey-dark: $mountbatten-pink;
+$grey-light: $burnt-sienna;
+$primary: $usafa-blue;
+$link: $mountbatten-pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$info: $usafa-blue;
+
+// Update some of Bulma's component variables
+$body-background-color: $alice-blue;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/bulma.sass";
+
 
 header {
     img {
@@ -17,6 +58,10 @@ header {
 
 .rounded {
     border-radius: 10px;
+}
+
+.is-info {
+background-color: $usafa-blue !important;
 }
 
 #back2Top {
@@ -36,3 +81,8 @@ header {
     }
 }
 
+.card {
+    :hover > & {
+        box-shadow: $grey-dark 0px 0.5em 1em -0.125em, $grey-dark 0px 0px 0px 1px;
+    }
+}
